@@ -1,0 +1,9 @@
+.header{
+    &__items{
+        display: flex;
+    }
+}
+.header__item{
+    display: flex;
+    color: green;
+}

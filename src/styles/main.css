@@ -1,3 +1,20 @@
-body {
-  background: black;
+.header__items {
+  display: flex;
+}
+
+.header__item {
+  display: flex;
+  color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  height: 1000px;
 }

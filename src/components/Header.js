@@ -1,14 +1,20 @@
-"use strict";
 
 import  {Allcomponent}  from '/src/index.js';
 
-export class Header extends Allcomponent{
+export  class Header {
     
-    raf() {
-        alert('aldjf');
+        
+    headerItems( text, nameClass ){
+        let headerItems = document.querySelector('.header__items');
+        
+        let div = document.createElement('div');
+        div.classList.add(nameClass);
+        div.textContent = text;
+        headerItems.append(div);
+        
     }
 }
 
-let header = new Header();
+
 
 

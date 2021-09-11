@@ -1,18 +1,17 @@
 "use strict";
+import './styles/main.css';
 
-import {Header} from './components/Header';
+import   {Header} from './components/Header';
 
 export  class Allcomponent{
-    super(){
-        this.ra()
-    }
+
     ra(){
-        alert('niga');
+
+        alert('index workint');
     }
 }
 
-let allcomponent = new Allcomponent();
 let header = new Header();
-allcomponent.ra();
-// header.raf();
-
+header.headerItems('Servis', 'header__item');
+header.headerItems('About us', 'header__item');
+header.headerItems('Api', 'header__item');
