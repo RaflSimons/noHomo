@@ -1,10 +1,19 @@
-.header__items {
-  display: flex;
+.header {
+  position: relative;
 }
 
 .header__item {
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.header__items {
   display: flex;
   color: green;
+  padding: 10px;
+  border: 1px black solid;
 }
 
 * {

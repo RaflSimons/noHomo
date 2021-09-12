@@ -1,9 +1,31 @@
 .header{
+
+    position: relative;
+&__item{
+            margin-right: 10px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+
+        }
     &__items{
+
         display: flex;
+        color: green;
+        
+        padding: 10px;
+        border: 1px black solid;
+
+        
+        &__func{
+            &__theme{
+
+            }
+            &__lang{
+
+            }
+        }
+        
     }
-}
-.header__item{
-    display: flex;
-    color: green;
+
 }

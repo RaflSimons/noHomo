@@ -14,4 +14,6 @@ export  class Allcomponent{
 let header = new Header();
 header.headerItems('Servis', 'header__item');
 header.headerItems('About us', 'header__item');
-header.headerItems('Api', 'header__item');
+header.headerItems('Api', 'header__item', 'header__api');
+header.api()
+
